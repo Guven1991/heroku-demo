@@ -13,7 +13,6 @@ public class HerokuController {
     @GetMapping("/")
     @ResponseStatus(HttpStatus.OK)
     public String getCurrentTime() {
-
         return "Merhaba Dünya : gayvazoglu.29@gmail.com : "+ Instant.now().toString();
     }
 }
